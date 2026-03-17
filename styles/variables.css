@@ -1,0 +1,44 @@
+:root {
+	/* fonts available @ https://fonts.google.com */
+	--header-font-family: Roboto Mono;
+	--card-font-family: Roboto Mono;
+
+	/* App Styles */
+	--app-border-radius: 8px;
+	--app-padding: 8px;
+	--app-background-image: url(../images/transparent-image.png);
+	--app-background-color: rgba(0, 0, 0, 0);
+
+	/* Header */
+	--header-display: flex;
+	--header-border-radius: 8px;
+	--header-margin-bottom: 6px;
+	--header-padding: 12px;
+	--header-background-color: rgba(0, 0, 0, 0.8);
+	--header-font-size: 18px;
+	--header-font-color: white;
+	--header-font-weight: 300;
+
+	/* Card */
+	--card-gap-between: 6px;
+	--card-border-radius: 8px;
+	--card-background-color: rgba(0, 0, 0, 0.8);
+	--card-padding: 12px;
+
+	/* User Name */
+	--username-font-size: 18px;
+	--username-color: #ffffff;
+	--username-font-weight: 300;
+
+	/* User Task */
+	--task-font-size: 16px;
+	--task-font-color: #ffffff;
+	--task-font-weight: 300;
+
+	--task-done-font-color: #aaaaaa;
+	--task-done-font-style: italic;
+	--task-done-text-decoration: line-through;
+	--task-focus-font-color: #111111;
+	--task-focus-background-color: rgba(255, 255, 255, 0.7);
+	--task-focus-border-radius: 8px;
+}
